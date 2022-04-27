@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Thessaloniki.Base.Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Thessaloniki.Base", "R5T.Thessaloniki.Base\R5T.Thessaloniki.Base.csproj", "{2EDE5CED-8246-4690-AB7C-E22BA8969758}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{96369C0C-1513-4486-99E4-169AA406BC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{62E82316-B363-4E85-AAEC-D50DD2885D83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{2EDE5CED-8246-4690-AB7C-E22BA8969758}.Release|x64.Build.0 = Release|Any CPU
 		{2EDE5CED-8246-4690-AB7C-E22BA8969758}.Release|x86.ActiveCfg = Release|Any CPU
 		{2EDE5CED-8246-4690-AB7C-E22BA8969758}.Release|x86.Build.0 = Release|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Debug|x64.Build.0 = Debug|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Debug|x86.Build.0 = Debug|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Release|x64.ActiveCfg = Release|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Release|x64.Build.0 = Release|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Release|x86.ActiveCfg = Release|Any CPU
+		{62E82316-B363-4E85-AAEC-D50DD2885D83}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62E82316-B363-4E85-AAEC-D50DD2885D83} = {96369C0C-1513-4486-99E4-169AA406BC56}
 	EndGlobalSection
 EndGlobal

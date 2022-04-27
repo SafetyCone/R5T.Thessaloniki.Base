@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Thessaloniki
-{
-    public interface ITemporaryDirectoryPathProvider
+{[ServiceDefinitionMarker]
+    public interface ITemporaryDirectoryPathProvider:IServiceDefinition
     {
         string GetTemporaryDirectoryPath();
     }
